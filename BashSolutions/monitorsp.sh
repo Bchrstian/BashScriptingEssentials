@@ -5,14 +5,14 @@ subject="Root Partition Space Alert"
 email_content="Attention: The root partition on your system has exceeded 20% usage.\n\nCurrent Disk Usage:"
 
 # System administrator email
-admin_email="byiringirosean@gmail.com"
+admin_email="example@gmail.com"
 
 # Threshold for alert (percentage)
 threshold=20
 
 # Gmail account credentials
-gmail_user="byiringirosean@gmail.com"
-gmail_password="icze pbzi gdmv lmis"  # Update this line with your generated app password
+gmail_user="example@gmail.com"
+gmail_password="YourPassword"  # Update this line with your generated app password
 
 # Get current disk usage percentage for the root partition
 current_usage=$(df -h / | awk 'NR==2 {print $5}' | cut -d'%' -f1)
