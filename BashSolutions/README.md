@@ -84,9 +84,7 @@ Note:
 
 Adjust the username@nas_address in the rsync command based on your NAS configuration.
 perl
-Copy code
 
-This revised version should be clearer and more accurate for use in your README.md file.
 
 
 
